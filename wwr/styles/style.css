@@ -15,6 +15,7 @@ nav a, #hero-msg h1, #hero-msg h4, .button-box, main section {
 
 body {
     background-color: #fcfbfb; 
+    margin: 0px;
 }
 
 header {
