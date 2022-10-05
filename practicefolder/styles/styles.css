@@ -1,9 +1,51 @@
-.main-para{
-    font-size: 1.5em;
-    line-height: 1.5em;
+body {
+    text-align: center;
+    background-color: rgb(247, 159, 187);
+    font-family: Arial, Helvetica, sans-serif;
+
 }
 
-#active {
-    background-color: white;
-    color: steelblue;
+header, .header_quote, .main_quote {
+    color: white;
+}
+
+.header_quote {
+    margin: 0 20%;
+    font-size: 0.8em;
+}
+
+.list {
+    text-align: left;
+    margin: 0 20%;
+
+}
+
+li {
+    padding: 3px;
+    font-weight: bold;
+    
+}
+
+img {
+    margin: 0 auto;
+    width: 40%;
+    display: block;
+    
+}
+
+.author {
+    color: black;
+}
+
+header h1:hover {
+    color: black;
+
+}
+
+.big_quote {
+    margin: 5% 30%;
+    font-size: 190%;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+
 }
