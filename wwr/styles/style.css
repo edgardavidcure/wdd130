@@ -229,6 +229,154 @@ footer .social img {
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* Rivers Page*/
+
+
+
+
+#river-img {
+    width: 100%;
+    
+}
+
+#river-msg h1, #river-msg h4 {
+    text-align: center;
+}
+
+
+#river-msg {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    
+}
+
+#river-msg h4{
+    color: #023047;
+}
+
+.river-title {
+    color: #023047;
+    font-family: Fugaz One, Arial, sans-serif;
+    font-size: 2.5em;
+    
+    
+}
+
+.rivers-grid {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(9, 1fr);
+}
+
+.idaho-img, .utah-img, .arizona-img {
+    max-width: 100%;
+    height: auto;
+    min-height: 500px;
+    padding: 50px 0;
+    margin-top: 20px;
+    
+}
+
+.idaho-river, .utah-river, .arizona-river {
+    margin-top: 0px;
+    padding: 50px 50px;
+
+}
+
+.idaho-img {
+    grid-column: 1/7;
+    grid-row: 2/5;
+}
+
+.utah-img {
+    grid-column: 5/11;
+    grid-row: 5/8;
+}
+
+.arizona-img {
+    grid-column: 1/7;
+    grid-row: 8/11;
+}
+
+.idaho-river {
+    grid-column: 7/11;
+    grid-row: 2/5;
+}
+
+
+.utah-river {
+    grid-column: 1/5;
+    grid-row: 5/8;
+
+}
+
+.arizona-river {
+    grid-column: 7/11;
+    grid-row: 8/11;
+}
+
+.title-idaho{
+    grid-column: 2/10;
+    grid-row: 2;
+    text-align: center;
+    margin-top: -50px;
+    color: #023047;
+    font-family: Fugaz One, Arial, sans-serif;
+    font-size: 2em;
+}
+.title-utah{
+    grid-column: 2/10;
+    grid-row: 5;
+    text-align: center;
+    margin-top: -50px;
+    color: #023047;
+    font-family: Fugaz One, Arial, sans-serif;
+    font-size: 2em;
+}
+.title-arizona{
+    grid-column: 2/10;
+    grid-row: 8;
+    text-align: center;
+    margin-top: -50px;
+    color: #023047;
+    font-family: Fugaz One, Arial, sans-serif;
+    font-size: 2em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /*Media Query Home*/
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
@@ -271,3 +419,43 @@ footer .social img {
     }
 }
          
+/* Media Query Rivers*/
+@media screen and (max-width: 900px) {
+    #hero, .rivers-grid {
+        display: block;
+        height: auto;
+    }
+    nav, footer {
+        flex-direction: column;
+    }
+    nav a {
+        display: block;
+        padding: 15px;
+    }
+    #hero {
+        margin-top: 0;
+    }
+    #river-msg {
+        margin-top: 0;
+    }
+    #river-msg h4 {
+        display: none;
+    }
+    .river-title {
+        font-size: 25px;
+        color: #6f7364;
+    }
+    .idaho-img, .utah-img, .arizona-img { 
+        margin: 50px;
+        width: 80%;
+        height: 50%;
+    }
+    #background {
+        display: none;
+    }
+    
+    
+    footer {
+        margin-top: 25px;
+    }
+}
