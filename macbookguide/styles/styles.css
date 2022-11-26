@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Secular+One&display=swap');
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+nav a, #hero-msg h1, #hero-msg h4, main section {
+    text-align: center;
+    
+}
+
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+body {
+    background-color: #fcfbfb; 
+    font-family: Poppins, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    font-size: 22px;
+}
+
+header {
+    background-color: #12130F;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 35px;
+}
+
+nav a:hover {
+    background-color: #FF8360;
+    color: white;
+}
+
+#hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 200px 2fr;
+    margin-top: 50px;
+
+}
+
+
+
+#hero-msg {
+    grid-column: 2/5;
+    grid-row: 1/2;
+    align-content: center;
+    max-height: 200px;
+}
+
+#hero-msg h4{
+    color: #12130F;
+}
+#hero-img {
+    grid-column: 1/6;
+    grid-row: 2/3;
+}
+#hero-img img {
+    max-width: 100%;
+}
+.home-title {
+    color: #12130F;
+    font-family: Secular One, Arial, sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+h2 {
+    margin: 0;
+}
+
+h4 {
+    color: #023047;
+}
+
+.intro-title {
+    color: #12130F;
+    font-size: 2em;
+    font-family: Secular One, Arial, sans-serif;
+
+}
+
+.intro p {
+    color: #12130F;
+    font-size: 1em;
+    padding-bottom: 15px;
+}
+
+.home-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repear(5, 1fr);
+}
+
+.intro{
+    margin: 10% auto;
+    grid-column: 1/6;
+    grid-row: 1/2;
+}
+
+.intro h2 {
+    margin-bottom: 5%;
+}
+
+.choice-img {
+    margin-left: -41px;
+    max-width: 100%;
+    max-height: 1000px;
+    grid-column: 1/4;
+    grid-row: 2/3;
+}
+
+.choice-msg {
+    grid-column: 4/6;
+    grid-row: 2/3;
+    padding: 10%;
+}
+
+.choice-msg p {
+    margin: 60px 20px 60px -40px;
+}
+
+.choice-msg h2 {
+    color: #12130F;
+    font-size: 2em;
+    font-family: Secular One, Arial, sans-serif;
+    margin-left: -40px;
+}
+
+.processors-bullet-points {
+    margin-top: 100px;
+    grid-column: 2/3;
+
+}
+
+.models-bullet-points {
+    margin-top: 100px;
+    grid-column: 4/5;
+}
+
+h4 {
+
+    color: #12130F;
+    font-size: 1em;
+    font-family: Secular One, Arial, sans-serif;
+
+}
+
+
+footer {
+    background-color: #12130F;
+    padding: 25px 50px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+footer a {
+    color: #fcfbfb;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #FF8360;
+}
+
+.logo, .icon {
+    width: 80px;
+}
+
+.icon {
+    padding-top: 10px;
+}
+
+
+footer p {
+    font-size: 1.2em;
+    color: #fcfbfb;
+}
+
+footer p a:hover {
+    text-decoration: underline;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
+
+
+
+
+
+
+
+
+
+
