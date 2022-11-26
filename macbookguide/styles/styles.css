@@ -104,7 +104,7 @@ h4 {
 .home-grid {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repear(5, 1fr);
+    
 }
 
 .intro{
