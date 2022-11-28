@@ -141,6 +141,53 @@ h4 {
     font-family: Secular One, Arial, sans-serif;
     margin-left: -40px;
 }
+.empty {
+    height: 100px;
+    grid-column: 1/6;
+    
+}
+
+.accordion {
+    background-color: #F8F4E3;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 1em;
+    transition: 0.4s;
+    grid-column: 3/4;
+    
+}
+
+.active, .accordion:hover {
+    background-color: #ccc;
+}
+
+.accordion:after {
+    content: '\002B';
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\2212";
+}
+
+.panel {
+    padding: 0 18px;
+    background-color: #fcfbfb;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    grid-column: 3/4;
+    
+}
+
 
 .processors-bullet-points {
     margin-top: 100px;
@@ -202,7 +249,6 @@ footer p a:hover {
 footer .social img {
     padding-top: 15px;
 }
-
 
 
 

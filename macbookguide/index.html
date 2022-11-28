@@ -46,8 +46,10 @@
                 <h2>The Right Choice</h2>
                 <p>How cool would it be to live a lifestyle where money was not the first thing to consider in order to make the right purchase? Would you choose the most expensive item out there? Well… Let me tell you something, regardless if money is an issue or not, choosing the right macbook is not necesarilly attached to the highest price tag out there. Isn’t it cool?! There are multiple options that range from the low $999 to the high +$3000 Dollars. But to understand why a Macbook can be so expensive or so cheap, we need to talk about two important topics that could be unknown for some of us, or maybe we have not come to understand completely. Those are: Macbook Models and Processors.</p>
             </section>
-            <section class="processors-bullet-points">
-                <h4>Processors</h4>
+            <div class="empty"></div>
+
+            <button class="accordion">Processors</button>
+            <div class="panel">
                 <ul>
                     <li>M1 Chip</li>
                     <li>M1 Pro</li>
@@ -55,9 +57,10 @@
                     <li>M1 Ultra</li>
                     <li>M2 chip</li>
                 </ul>
-            </section>
-            <section class="models-bullet-points">
-                <h4>Models</h4>
+            </div>
+
+            <button class="accordion">Models</button>
+            <div class="panel">
                 <ul>
                     <li>Macbook Air M1</li>
                     <li>Macbook Air M2</li>
@@ -65,8 +68,7 @@
                     <li>Macbook Pro M1 Pro 14"/16"</li>
                     <li>Macbook Pro M2</li>                
                 </ul>
-
-            </section>
+            </div>
         </main>
         <footer>
             <p>The Macbook Guide &copy; 2022 - Edgar Cure</p>
@@ -89,6 +91,23 @@
         </footer>
 
     </div>
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+        
+        for (i = 0; i < acc.length; i++) {
+          acc[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.style.maxHeight) {
+              panel.style.maxHeight = null;
+            } else {
+              panel.style.maxHeight = panel.scrollHeight + "px";
+            } 
+          });
+        }
+        </script>
+        
     
 </body>
 </html>
