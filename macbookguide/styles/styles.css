@@ -14,6 +14,12 @@ nav a, #hero-msg h1, #hero-msg h4, main section {
     padding-top: 5px;
     justify-self: center;
     align-self: center;
+    
+}
+
+.logo {
+    width: 100%;
+    height: 100%;
 }
 
 body {
@@ -245,4 +251,148 @@ footer .social img {
 
 
 
+
+
+
+
+/* PROCESSORS PAGE */
+
+
+
+#hero-processors {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 300px;
+    
+    
+}
+
+
+#hero-processors-img {
+    grid-column: 2/5;
+    grid-row: 1/2;
+    max-height: 100%;
+}
+
+
+#hero-processors-img img {
+    width: 100%;
+    height: 100%;
+    border-top: 10px solid #759AAB;
+    border-bottom: 10px solid #FF8360;
+
+}
+
+
+#hero-processors-msg {
+    grid-column: 2/5;
+    grid-row: 2/3;
+    align-content: center;
+    text-align: center;
+    margin-top: 50px;
+    max-height: 200px;
+    
+   
+}
+
+#hero-processors-msg h4{
+    color: #12130F;
+}
+
+
+.processors-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 300px 1fr repeat(5, 800px);
+    
+    
+}
+
+.processors-grid img{
+    width: 100%;
+}
+
+.processors-grid h2 {
+
+    color: #12130F;
+    font-size: 2em;
+    font-family: Secular One, Arial, sans-serif;
+    margin: 30px 0;
+}
+
+
+.images {
+    border-top: 10px solid #FF8360;
+    grid-column: 1/6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #12130F;
+    
+}
+
+.chips {
+    min-height: 150px;
+    min-width: 150px;
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.intro2 {
+    border-top: 10px solid #759AAB;
+    grid-column: 1/6;
+    grid-row: 2/3;
+    padding: 10%;
+    max-height: 800px;
+}
+
+.intro-title2 {
+    color: #12130F;
+    font-size: 2em;
+    font-family: Secular One, Arial, sans-serif;
+
+}
+
+.intro2 p {
+    color: #12130F;
+    font-size: 1em;
+    padding-bottom: 15px;
+    text-align: justify;
+}
+
+.m1chip-summary {
+    grid-column: 2/5;
+    grid-row: 3/4;
+    max-height: 500px;
+    
+}
+
+.m2chip-summary {
+    grid-column: 2/5;
+    grid-row: 4/5;
+    
+}
+
+.m1pro-chip-summary {
+    grid-column: 2/5;
+    grid-row: 5/6;
+    
+}
+
+.m1max-chip-summary {
+    grid-column: 2/5;
+    grid-row: 6/7;
+    
+}
+
+.m1ultra-chip-summary {
+    grid-column: 2/5;
+    grid-row: 7/8;
+    
+}
+
+
+hr {
+    border-top: 10px solid #FF8360;
+}
 
